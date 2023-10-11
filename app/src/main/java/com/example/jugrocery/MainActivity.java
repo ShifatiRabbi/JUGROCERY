@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View view) {
         if(view.getId()==R.id.cv1)
         {
-            Intent intent= new Intent(MainActivity.this, ProductList.class);
+            Intent intent= new Intent(MainActivity.this, Blog.class);
             startActivity(intent);
 
         }
@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         else if(view.getId()==R.id.cv2)
         {
-            Intent intent= new Intent(MainActivity.this, AddProduct.class);
+            Intent intent= new Intent(MainActivity.this, uploder.class);
             startActivity(intent);
 
 

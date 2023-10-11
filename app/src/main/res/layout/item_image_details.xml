@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginBottom="10dp">
+
+
+    <TextView
+        android:id="@+id/blogtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Name"
+        android:textSize="18sp"
+        android:textColor="#333333" /> <!-- Customize text size and color -->
+
+    <TextView
+        android:id="@+id/blogcategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Product Category"
+        android:textSize="16sp"
+        android:textColor="#777777" />
+
+    <TextView
+        android:id="@+id/blogdescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textSize="16sp"
+        android:textColor="#777777" />
+
+    <TextView
+        android:id="@+id/blogamount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price"
+        android:textSize="16sp"
+        android:textColor="#777777" />
+
+    <TextView
+        android:id="@+id/blogavnum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Available no of product"
+        android:textSize="16sp"
+        android:textColor="#777777" />
+
+</LinearLayout>
